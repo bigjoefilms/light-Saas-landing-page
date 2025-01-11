@@ -146,4 +146,4 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 
 For any inquiries or support, please reach out:
 - GitHub: [bigjoefilms](https://github.com/bigjoefilms)
-- Email: your-email@example.com
+- Email: bigjoefilms0@gmail.com
