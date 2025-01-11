@@ -92,8 +92,8 @@ transition={{
             
             {[...new Array(2).fill(0).map((_, index) =>
             <React.Fragment key={index}>
-               {props.testimonials.map(({text, imageSrc, name, username }) => (
-              <div className="card">
+               {props.testimonials.map(({text, imageSrc, name, username }, index) => (
+              <div key={index} className="card">
                 <div>{text}</div>
                 <div className="flex items-center gap-2 mt-5">
                   <Image src={imageSrc} width={40} height={40} alt={name} className="h-10 w-10 rounded-full"/>
